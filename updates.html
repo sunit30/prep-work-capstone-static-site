@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="top-links flex-row">
+        <div></div>
+        <div id="top-brand-name"><a href="index.html">Air Hotel</a></div>
+        <div>Sign In</div>
+      </div>
+      <div class="navbar flex-row">
+        <div><a href="index.html">Home</a></div>
+        <div><a href="about-us.html">About Us</a></div>
+        <div><a href="updates.html">Updates</a></div>
+        <div><a href="more.html">More</a></div>
+      </div>
+    </div>
+
+    <div class="main-body">
+      <div class="container updates">
+        <form action="/form-handling-url" method="post">
+          <fieldset>
+            <legend><em>Get in touch for updates</em></legend>
+            <div class="container">
+              <div class="flex-block-column">
+                <label for="firstName">First name:</label>
+                <input type="text" id="firstName" name="first_name" />
+              </div>
+
+              <div class="flex-block-column">
+                <label for="lastName">Last name:</label>
+                <input type="text" id="lastName" name="last_name" />
+              </div>
+
+              <div class="flex-block-column">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email_address" />
+              </div>
+
+              <div class="flex-block-row">
+                <div class="flex-block-column">
+                  <label for="guests">No. of guests :</label>
+                  <select id="guests" name="guests">
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="4+">4+</option>
+                  </select>
+                </div>
+
+                <div class="flex-block-column">
+                  <label for="date">Date :</label>
+                  <input type="date" id="date" name="date" />
+                </div>
+              </div>
+              <div class="flex-block-column">
+                <p>Choose your residence type :</p>
+                <div class="flex-block-row">
+                  <input
+                    type="radio"
+                    id="apartment"
+                    name="residence-type"
+                    value="apartment"
+                  />
+                  <label for="apartment">Apartment</label><br />
+                  <input
+                    type="radio"
+                    id="resort"
+                    name="residence-type"
+                    value="resort"
+                  />
+                  <label for="resort">Resort</label><br />
+                  <input
+                    type="radio"
+                    id="cabin"
+                    name="residence-type"
+                    value="cabin"
+                  />
+                  <label for="cabin">Cabin</label>
+                </div>
+              </div>
+
+              <div class="flex-block-column">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments"></textarea>
+              </div>
+
+              <div class="flex-block-column">
+                <div class="flex-block-row">
+                  <input
+                    type="checkbox"
+                    id="signup"
+                    name="signup"
+                    value="Signup"
+                  />
+                  <label class="small-font" for="signup"
+                    >Sign up for news letter</label
+                  ><br />
+                  <input
+                    type="checkbox"
+                    id="terms"
+                    name="terms"
+                    value="Terms"
+                  />
+                  <label class="small-font" for="terms"> Agree to terms</label>
+                </div>
+
+                <div>
+                  <button type="submit">Submit</button>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

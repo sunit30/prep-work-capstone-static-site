@@ -1,0 +1,148 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #eae9fe;
+}
+.flex-row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 12px;
+  padding: 10px;
+}
+.navbar {
+  border-top: 1px solid rgba(202, 202, 202, 0.786);
+  border-bottom: 1px solid rgba(202, 202, 202, 0.786);
+  background-color: white;
+}
+.navbar a {
+  padding: 10px;
+  text-decoration: none;
+  color: #311270;
+}
+#top-brand-name a {
+  text-decoration: none;
+  color: #311270;
+  font-size: 35px;
+}
+.top-links > div {
+  padding: 5px;
+}
+.top-links > div:last-child {
+  box-sizing: border-box;
+  padding-top: 14px;
+  border: 1px solid rgba(202, 202, 202, 0.786);
+  border-radius: 5px;
+}
+.header {
+  font-size: 18px;
+  background-color: white;
+  color: #311270;
+}
+.container {
+  width: 800px;
+  margin: auto;
+}
+h1.main-heading {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  font-weight: lighter;
+  padding: 10px;
+  text-align: center;
+  color: #311270;
+}
+.banner-pic {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+.banner-para {
+  text-align: center;
+
+  margin-bottom: 29px;
+}
+.main-body-bottom {
+  justify-content: center;
+}
+.main-body-bottom > img {
+  width: 70px;
+  height: auto;
+  margin-right: 20px;
+}
+form {
+  font-weight: 800;
+  color: #311270;
+}
+fieldset {
+  border-width: 5px;
+  border-radius: 5px;
+}
+legend {
+  font-size: 26px;
+  color: rgba(58, 58, 58, 0.829);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 5px;
+  margin-left: 90px;
+}
+.flex-block-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.flex-block-row {
+  display: flex;
+  justify-content: space-between;
+}
+label[for="signup"],
+label[for="terms"] {
+  width: 75px;
+}
+.small-font {
+  font-size: smaller;
+}
+.flex-block-row > * {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 260px;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  margin-top: 0;
+}
+button {
+  margin-top: 10px;
+  width: 80px;
+  height: 29px;
+  font-size: large;
+  cursor: pointer;
+}
+.image-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.image-flex img {
+  width: 345px;
+  height: auto;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.about-us .main-body-bottom {
+  font-size: 15px;
+  color: rgb(58, 58, 58);
+  justify-content: flex-start;
+}
+.about-us .main-body-bottom > img {
+  width: 70px;
+  height: auto;
+  margin-right: 55px;
+}
